@@ -1,0 +1,78 @@
+/* contact.html */
+.addresses .tabs {
+    margin-left: 91px;
+}
+
+.addresses address {
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    width: 368px;
+    height: 368px;
+    float: left;
+    margin: 71px 30px 0 0;
+    text-align: center;
+    font-style: normal;
+}
+
+.addresses address img {
+    color: #212121;
+    font-size: 48px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 30px; /* Приближение из-за подстановки шрифтов */
+    margin-top: 48px;
+}
+
+.addresses address h3 {
+    color: #212121;
+    font-size: 22px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 30px; /* Приближение из-за подстановки шрифтов */
+    transform: scaleX(1.0041); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    margin-bottom: 20px;
+}
+
+.addresses address .row-name {
+    margin-top: 10px;
+    color: #6c6c6c;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 20px; /* Приближение из-за подстановки шрифтов */
+    display: block;
+}
+
+.addresses address .detail-address {
+    color: #6c6c6c;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 20px; /* Приближение из-за подстановки шрифтов */
+    transform: scaleX(1.0041); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    margin: 0;
+}
+
+.addresses address a {
+    color: #212121;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 20px; /* Приближение из-за подстановки шрифтов */
+    text-decoration: none;
+}
+
+.container {
+    height: 1310px;
+}
+
+.header {
+    background: #f5f5f5 none;
+    height: 360px;
+}
+
+.header .text {
+    color: #212121;
+    font-size: 62px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 171px;
+    margin-left: 101px;
+}

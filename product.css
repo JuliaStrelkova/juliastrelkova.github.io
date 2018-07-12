@@ -1,0 +1,166 @@
+.header {
+    background: white none;
+    height: 119px;
+}
+
+.container {
+    height: 100%;
+    min-height: 2080px;
+}
+
+.header .text {
+    color: #212121;
+    font-size: 62px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 171px;
+    margin-left: 101px;
+}
+
+.product .menu-products {
+    background-color: #f4f4f4;
+    width: 1366px;
+    height: 70px;
+    text-align: center;
+    position: relative;
+}
+.menu-products ul {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 40%;
+    display: inline-block;
+}
+.menu-products li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu-products li a {
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;    font-family: 'Montserrat', sans-serif;
+    color: #8c8c8c;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px 10px 20px;
+    text-transform: uppercase;
+
+}
+
+.menu-products li a:hover {
+    color: black;
+    transform: scaleY(1.0006); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+
+}
+
+.menu-products li .active {
+    color: #212121;
+    border-bottom: 3px solid black;
+}
+
+.menu-products li a.search:hover {
+    border: none;
+}
+
+.slider {
+    width: 570px;
+    text-align: center;
+    float: left;
+    margin: 72px 56px 0 98px;
+}
+
+.big {
+    width: 570px;
+    height: 570px;
+    float: left;
+}
+
+.fishnet {
+    color: #212121;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.product-description {
+    display: inline-block;
+    width: 500px;
+    margin-top: 119px;
+}
+
+.product-description .hot-deal {
+    color: #e53935;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    height: auto;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+
+.symbol-price {
+    color: #212121;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+
+}
+
+.price {
+    color: #212121;
+    font-size: 72px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.block-price {
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.product-description .description {
+    margin-top: 49px;
+    font-family: Gotham, sans-serif;
+    color: #212121;
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.product-description .description p {
+    margin-bottom: 15px;
+}
+
+.order-us {
+    background-color: #f44336;
+    box-shadow: 0 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 510px;
+    height: 71px;
+    border-radius: 35px;
+    color: #FFF;
+    font-size: 22px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.order-us:hover {
+    background: #f44336 url('img/arrow_white.png') no-repeat 360px 23px;
+}
