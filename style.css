@@ -10,7 +10,7 @@ body {
     width: 1366px;
     height: 5710px;
     margin: 0 auto;
-    border: 1px solid #f4f4f4;
+    border: 1px solid #d9dee1;
 }
 
 .header {
@@ -293,10 +293,12 @@ body {
     text-decoration: none;
     color: inherit;
 }
-
-.footer .subscribe-form input {
+.footer .subscribe-form {
     margin-top: 26px;
-    width: 350px;
+    border: 1px solid #d9dee1;
+}
+.footer .subscribe-form .email {
+    width: 302px;
     height: 48px;
     color: #6c6c6c;
     font-size: 14px; /* Приближение из-за подстановки шрифтов */
@@ -304,11 +306,17 @@ body {
     line-height: 22px; /* Приближение из-за подстановки шрифтов */
     text-align: left;
     padding-left: 20px;
-    outline: 1px solid #000;
     border: none;
-    background: url("img/send.png") no-repeat 330px;
 }
-
+.footer .subscribe-form .paper-plane {
+    background: #ffffff url("img/send.png") no-repeat center;
+    border: none;
+    width: 46px;
+    height: 46px;
+    float: right;
+    display: block;
+    cursor: pointer;
+}
 .featured-bar {
     height: 609px;
 }
